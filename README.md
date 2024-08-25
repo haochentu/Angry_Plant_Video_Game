@@ -10,4 +10,5 @@ II. Game Summary
 There are three levels. Basically, enemies will enter the screen from the left side and they are walking towards the right, where sunflowers are. Once enemies collide with the sunflower, game over. The user can protect the sunflowers by drag the dropped the animals to the battlefield. Each animal cost different amount of the money and the user will start with $1500 for the first two rounds and $2000 for the last round. If the user can pass all three rounds, the user win. 
 
 III. Game Installation 
+
 To play the game, download everything in this repository into your local drive, and run the main.py. 
