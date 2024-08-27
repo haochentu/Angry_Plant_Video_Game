@@ -437,7 +437,7 @@ class GameManager(BasicManager):
                  self._pandaWeapon.remove(bullet)
                  break
        for bullet in self._dragonWeapon:
-           bullet.update(seconds, self._dandelions)
+           bullet.update(seconds)
            for enemy in self._enemyCollection:
              enemy_rect = enemy.getCollisionRect()
              if bullet.getCollisionRect().colliderect(enemy_rect):
